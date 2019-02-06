@@ -32,3 +32,23 @@ form {
   padding: 10px;
   width: 100px;
 }
+
+.main-ul {
+  text-align: center;
+
+}
+
+.main-ul h4 {
+  font-weight: 900;
+  padding: 20px;
+}
+.main-ul h4 {
+  font-weight: 700;
+}
+
+.main-ul li {
+    transition: all .4s ease-in;
+}
+.main-ul li:hover {
+  transform: scale(1.05)
+}

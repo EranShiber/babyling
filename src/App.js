@@ -28,8 +28,8 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header hendleSubmit={this.hendleSubmit} hendleInputChange={this.hendleInputChange} />
-        <Tasks />
+        <Header state={this.state} hendleSubmit={this.hendleSubmit} hendleInputChange={this.hendleInputChange} />
+        <Tasks state={this.state} />
       </div>
     );
   }

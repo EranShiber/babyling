@@ -31,9 +31,9 @@ class Header extends React.Component {
               </tr>
               <tr>
                 <th scope="col" />
-                <th scope="col">234</th>
-                <th scope="col">260</th>
-                <th scope="col"> 4 </th>
+                <th scope="col">{this.props.state.days}</th>
+                <th scope="col">{this.props.state.hours}</th>
+                <th scope="col"> {Math.floor(this.props.state.weeks)} </th>
               </tr>
             </table>
           </div>
